@@ -1,0 +1,40 @@
+<!--Users view their information (horoscope and mood)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,800;1,200;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HorrorScope</title>
+    <button class="signout" id="signout">
+        Sign Out
+    </button>
+    <nav style="margin: 0%">
+        <img class="logo" src="./ZodiacWheel.png">
+        <h1>HorrorScope</h1>
+    </nav>
+</head>
+<body>
+    <div class="dailyHoro">
+        <h2 id="daynote">Welcome,</h2>
+        <h2 id="firstName"></h2> 
+        <h2>Here's your</h2>
+        <h2 id="zodiac"></h2>
+        <h2>horoscope for the day.</h2>
+        
+        <button id="dailyVibe">Daily Vibe</button>
+        <h4 id="horrorscope"></h4>
+    </div>
+    <div class="moody">
+        <h2>What a mood, honestly.</h2>
+        <button id="getMood">Generate your mood score.</button>
+        <h4 id="yourMood"></h3>
+        <script src="./home.js"></script>
+    </div>
+</body>
+</html>
